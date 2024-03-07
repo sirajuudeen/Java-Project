@@ -32,7 +32,7 @@ public class ArrayListDemo {
 		System.out.println(list);
 
 		//Store user-defined class objects
-		
+
 		ArrayList<Student> students=new ArrayList<>();
 		Random random = new Random();
 
@@ -42,41 +42,38 @@ public class ArrayListDemo {
 		}
 
 		long startTime, endTime;
-		
+
 		// Traditional for loop
 		startTime = System.nanoTime();
-	
+
 		for(int i=0;i<students.size();i++) {
 			Student student = students.get(i);
-			 System.out.println(students.get(i).getId()+" "+students.get(i).getName()+" "+students.get(i).getAddress());
+			System.out.println(students.get(i).getId()+" "+students.get(i).getName()+" "+students.get(i).getAddress());
 		}
 		endTime = System.nanoTime();
 		System.out.println("Traditional For Loop Time: " + (endTime - startTime) + " ns");
-		
 
 		// Enhanced for loop
-        for (Student student : students) {
-        	System.out.println(student.getId()+" "+student.getName()+" "+student.getAddress());
-        }
-        
-     // While loop
-        int i = 0;
-        while (i < students.size()) {
-            Student student = students.get(i);
-            System.out.println(students.get(i).getId()+" "+students.get(i).getName()+" "+students.get(i).getAddress());
-            i++;
-        }
-        
-        
-     // Iterator
-        Iterator<Student> iterator=students.iterator();
-        while(iterator.hasNext()) {
-        	Student student=iterator.next();
-        	System.out.println(student.getId()+" "+student.getName()+" "+student.getAddress());
-        }
-        
-     // Streams
-        
-        students.stream().forEach(student ->{System.out.println(student.getId()+" "+student.getName()+" "+student.getAddress());});
+		for (Student student : students) {
+			System.out.println(student.getId()+" "+student.getName()+" "+student.getAddress());
+		}
+
+		// While loop
+		int i = 0;
+		while (i < students.size()) {
+			Student student = students.get(i);
+			System.out.println(students.get(i).getId()+" "+students.get(i).getName()+" "+students.get(i).getAddress());
+			i++;
+		}
+
+		// Iterator
+		Iterator<Student> iterator=students.iterator();
+		while(iterator.hasNext()) {
+			Student student=iterator.next();
+			System.out.println(student.getId()+" "+student.getName()+" "+student.getAddress());
+		}
+
+		// Streams
+		students.stream().forEach(student ->{System.out.println(student.getId()+" "+student.getName()+" "+student.getAddress());});
 	}
 }

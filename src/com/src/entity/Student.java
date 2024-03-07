@@ -3,13 +3,13 @@ package com.src.entity;
 public class Student {
 
 	int id;
-    String name;
-    double gpa;
-    int age;
-    String major;
-    String minor;
-    boolean enrolled;
-    String address;
+	String name;
+	double gpa;
+	int age;
+	String major;
+	String minor;
+	boolean enrolled;
+	String address;
 	public int getId() {
 		return id;
 	}
@@ -70,9 +70,5 @@ public class Student {
 		this.enrolled = enrolled;
 		this.address = address;
 	}
-	
-    
-	
-	
-	
+
 }
