@@ -31,7 +31,7 @@ public class ArrayListDemo {
 		// Printing all the elements in an ArrayList
 		System.out.println(list);
 
-		//Store user-defined class objects
+		//Store user-defined class objects in the ArrayList
 
 		ArrayList<Student> students=new ArrayList<>();
 		Random random = new Random();
