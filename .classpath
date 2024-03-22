@@ -7,5 +7,8 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Java 8"/>
+	<classpathentry kind="src" path="Java8_Demo"/>
+	<classpathentry kind="src" path="Collections"/>
+	<classpathentry kind="src" path="String Manipulation"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -2,37 +2,50 @@ package com.src.entity;
 
 public class Employee {
 
-	String ename;
-	int salary;
-	int experience;
-	public String getEname() {
-		return ename;
+	String empName;
+	int empSalary;
+	int empExperience;
+	String empAddress;
+	public String getEmpName() {
+		return empName;
 	}
-	public void setEname(String ename) {
-		this.ename = ename;
+	public void setEmpName(String empName) {
+		this.empName = empName;
 	}
-	public int getSalary() {
-		return salary;
+	public int getEmpSalary() {
+		return empSalary;
 	}
-	public void setSalary(int salary) {
-		this.salary = salary;
+	public void setEmpSalary(int empSalary) {
+		this.empSalary = empSalary;
 	}
-	public int getExperience() {
-		return experience;
+	public int getEmpExperience() {
+		return empExperience;
 	}
-	public void setExperience(int experience) {
-		this.experience = experience;
+	public void setEmpExperience(int empExperience) {
+		this.empExperience = empExperience;
 	}
-	public Employee(String ename, int salary, int experience) {
+	public String getEmpAddress() {
+		return empAddress;
+	}
+	public void setEmpAddress(String empAddress) {
+		this.empAddress = empAddress;
+	}
+	public Employee(String empName, int empSalary, int empExperience, String empAddress) {
 		super();
-		this.ename = ename;
-		this.salary = salary;
-		this.experience = experience;
+		this.empName = empName;
+		this.empSalary = empSalary;
+		this.empExperience = empExperience;
+		this.empAddress = empAddress;
 	}
 	@Override
 	public String toString() {
-		return "Employee [ename=" + ename + ", salary=" + salary + ", experience=" + experience + "]";
+		return "Employee [empName=" + empName + ", empSalary=" + empSalary + ", empExperience=" + empExperience
+				+ ", empAddress=" + empAddress + "]";
 	}
+	
+	
+	
+	
 	
 	
 }
