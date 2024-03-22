@@ -70,5 +70,12 @@ public class Student {
 		this.enrolled = enrolled;
 		this.address = address;
 	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", gpa=" + gpa + ", age=" + age + ", major=" + major
+				+ ", minor=" + minor + ", enrolled=" + enrolled + ", address=" + address + "]";
+	}
+	
+	
 
 }

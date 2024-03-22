@@ -40,7 +40,6 @@ public class ArrayListDemo {
 			students.add(new Student(i, "Student" + i, random.nextDouble() * 4.0, 18 + random.nextInt(5),
 					"Major" + i, "Minor" + i, true, "Address" + i));
 		}
-
 		long startTime, endTime;
 
 		// Traditional for loop
