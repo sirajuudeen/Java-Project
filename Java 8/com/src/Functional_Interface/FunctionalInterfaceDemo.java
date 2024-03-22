@@ -1,4 +1,4 @@
-package com.src.FunctionalInterface;
+package com.src.Functional_Interface;
 
 @FunctionalInterface // Explicit mentioned
 interface Calculate {

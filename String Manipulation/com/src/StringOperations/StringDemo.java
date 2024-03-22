@@ -1,4 +1,5 @@
-package com.src.stringOperations;
+package com.src.StringOperations;
+
 
 import java.util.Arrays;
 import java.util.HashMap;
