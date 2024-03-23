@@ -17,8 +17,6 @@ package com.src.Functional_Interface;
  *  3. Function 
  *  4. Supplier  
  * 
- * 
- * 
  */
 
 @FunctionalInterface // Explicit mentioned
