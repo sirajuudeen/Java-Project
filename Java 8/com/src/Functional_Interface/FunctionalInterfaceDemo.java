@@ -1,5 +1,26 @@
 package com.src.Functional_Interface;
 
+/*
+ * A functional interface is an interface that contains only one abstract method.
+ * It can have any number of default, static methods but can contain only one abstract method.
+ * Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces
+ * 
+ * Some Built-in Java Functional Interfaces:
+ *  • Runnable –> This interface only contains the run() method.
+	• Comparable –> This interface only contains the compareTo() method.
+	• ActionListener –> This interface only contains the actionPerformed() method.
+	• Callable –> This interface only contains the call() method.
+
+ *  In Java 8, there are 4 main functional interfaces are introduced which could be used in different scenarios
+ *  1. Consumer
+ *  2. Predicate  
+ *  3. Function 
+ *  4. Supplier  
+ * 
+ * 
+ * 
+ */
+
 @FunctionalInterface // Explicit mentioned
 interface Calculate {
 	int randomCaluclate(int a,int b);	
