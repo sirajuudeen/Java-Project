@@ -47,23 +47,9 @@ public class PredicateDemo {
 		System.out.println(studentNames.toString());
 
 		System.out.println("================Supplier=======================");
-		Supplier<Student> s= () -> 	new Student(666, "New Student", 92.9, "Java 8");
-		
-		Supplier<List<Student>> s1 = () -> {
-			List<Student> listStdnt = new ArrayList<Student>();
-			listStdnt.add(new Student(666, "New", 95.00, "Social"));
-			return listStdnt;
-		};
-		
+		Supplier<Student> s= () -> 	new Student(666, "Ram", 92.9, "Java 8");
 		
 		System.out.println("Student name:"+s.get().getName());
-		
-		
-		//StudentList.addAll(s1.get());
-		System.out.println(s1.get().toString());
-		
-		
-		
 
 	}
 }
