@@ -4,6 +4,7 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 /*
+ * Consumer<T> - accept() 
  * Consumer is accepting one argument, and printing it in upper case, but there is no return value.
  * The Consumer interface accepts one argument, but there is no return value.
  * The name of the function inside this interface is accept.

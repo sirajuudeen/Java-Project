@@ -4,7 +4,12 @@ import java.util.Date;
 import java.util.function.Supplier;
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+ * Supplier<R> - get()
+ * supplier functional interface is the one whose method is not having any arguments to pass and will return a value. 
+ * A supplier functional interface is mainly used to generate values lazily. For example, 
+ * to get a random number, to generate a sequence of numbers etc.
+ */
 public class SupplierDemo {
 
 	public static void main(String[] args) {

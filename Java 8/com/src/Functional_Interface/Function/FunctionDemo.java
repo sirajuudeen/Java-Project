@@ -3,8 +3,8 @@ package com.src.Functional_Interface.Function;
 import java.util.function.Function;
 
 /*
+ * Function<T,R> - apply()
  * A function is a type of functional interface in Java that receives only a single argument and returns a value after the required processing.
- * 
  * The Function interface consists of the following 4 methods as listed which are later discussed as follows:
 		1. apply()
 		2. andThen()

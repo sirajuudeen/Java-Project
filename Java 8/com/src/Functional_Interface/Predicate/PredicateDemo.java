@@ -3,6 +3,8 @@ package com.src.Functional_Interface.Predicate;
 import java.util.function.Predicate;
 
 /*
+ * Predicate<T> - test()
+ * 
  * Predicate will accept one argument, do some processing, and then return Boolean value.
  * some conditional check the argument then go to use Predicate.
  * It is used for filtering or testing elements based on a condition. 
