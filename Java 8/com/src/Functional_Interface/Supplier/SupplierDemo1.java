@@ -1,7 +1,6 @@
 package com.src.Functional_Interface.Supplier;
 
 import java.util.function.Supplier;
-
 import com.src.entity.Employee;
 
 public class SupplierDemo1 {

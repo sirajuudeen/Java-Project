@@ -1,10 +1,6 @@
 package com.src.Functional_Interface.Predicate;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.Predicate;
-
-import com.src.entity.Employee;
 
 /*
  * Predicate will accept one argument, do some processing, and then return Boolean value.
