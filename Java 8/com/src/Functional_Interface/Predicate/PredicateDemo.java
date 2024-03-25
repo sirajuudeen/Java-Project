@@ -6,6 +6,7 @@ import java.util.function.Predicate;
  * Predicate will accept one argument, do some processing, and then return Boolean value.
  * some conditional check the argument then go to use Predicate.
  * It is used for filtering or testing elements based on a condition. 
+ * Abstract method: boolean test(T t)
  */
 public class PredicateDemo {
 	public static void main(String[] args) {
